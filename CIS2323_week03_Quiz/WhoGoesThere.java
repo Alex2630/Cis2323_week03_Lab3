@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class WhoGoesThere
 {
-	public static void (String[] arg)
+	public static void (String arg[])
 	{
 		String FirstName;
 		String LastName;
