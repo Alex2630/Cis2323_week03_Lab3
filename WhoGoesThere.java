@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class WhoGoesThere
 {
 	public static void (String arg[])
