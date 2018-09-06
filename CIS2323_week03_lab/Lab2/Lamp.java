@@ -7,9 +7,9 @@ public class Lamp {
 	int watts;
 	public String IsOn()
 	{
-		if (isOn()== true) {
-			System.out.println(" on");
-		} else {System.out.println(" off");}
+		if (isOn) {
+			return "on";
+		} else {return "off";}
 	}
 	public void turnOn(){
 		isOn = true;
