@@ -5,9 +5,9 @@ public class Lamp {
 	public boolean IsOn=false;
 	String color;
 	int watts;
-	public String isOn()
+	public String IsOn()
 	{
-		if (isOn) {
+		if (isOn()== true) {
 			System.out.println(" on");
 		} else {System.out.println(" off");}
 	}
@@ -23,7 +23,7 @@ public class Lamp {
 	public getColor(){
 		return color;
 	}
-	public void setWatts(int watts){
+	public void setWatts(int w){
 		watts = w;
 	}
 	public getWatts(){

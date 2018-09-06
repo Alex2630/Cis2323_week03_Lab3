@@ -9,7 +9,7 @@ public class Mine {
 		myLamp.setwatts(45);
 		myLamp.turnOn();
 		
-		System.out.println("Lamp is " + myLamp.isOn()
+		System.out.println("Lamp is " + myLamp.IsOn()
 		+ "the color is " + myLamp.getColor()
 		+ "the watts are " + myLamp.getWatts());
 		
